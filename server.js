@@ -50,6 +50,10 @@ function displayJoinedCode(pageName, response) {
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (request, response) => displayJoinedCode("homePage", response));
+
+app.get("/SignIn", (request, response) => displayJoinedCode("SignIn", response));
+
+
 app.listen(PORT, () => {
     console.log("Listening");
 });

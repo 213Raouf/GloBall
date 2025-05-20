@@ -1,0 +1,13 @@
+#pageContent{
+    padding-top: 15vh;
+}
+
+.SignInBox{
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    top: 20vh;
+    border: solid 1px black;
+    padding: 20px;
+    width: 300px;
+}
