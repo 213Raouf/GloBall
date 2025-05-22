@@ -10,4 +10,33 @@
     border: solid 1px black;
     padding: 20px;
     width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fcfcfc;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+#username , #password, #username:focus , #password:focus{
+    outline:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #fcfcfc;
+    width: 75%;
+}
+#signinbutton{
+    width: 40%;
+    text-align: center;
+    border-radius: 15%;
+    color: white;
+    background-color: #113b6e;
+    border: 3px solid #113b6e;
+    border-radius: 10px;
+    transition: 0.1s ease;
+}
+
+
+    
